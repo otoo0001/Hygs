@@ -188,4 +188,4 @@ gdf.loc[gdf['glim_raw'].between(199, 299), 'litho_class'] = 3
 gdf.loc[gdf['glim_raw'].between(299, 801), 'litho_class'] = 4
 
 #   Now we can finally export the geodataframe to shapefile
-gdf.to_file(r'g:\_HyGS\_database\_output\_gwh_mean.shp', driver = 'ESRI Shapefile')
+gdf.to_file(r'\scratch\depfg\otoo0001\data\_HyGS\_database\_output\_gwh_mean.shp', driver = 'ESRI Shapefile')
