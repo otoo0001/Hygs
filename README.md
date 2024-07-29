@@ -1,4 +1,4 @@
-This is a repository with example scripts to access observed groundwater parameters.Connect to the database with the sample Query.py script. Tables in the database:
+This is a repository with example scripts to access observed groundwater parameters. Connect to the database with the sample SQL_geowat.py script in the Query folder. Tables in the database:
 geography_columns
 geometry_columns
 spatial_ref_sys
